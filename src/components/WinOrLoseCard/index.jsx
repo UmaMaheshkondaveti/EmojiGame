@@ -3,11 +3,11 @@ import './index.css'
 const LOSE_IMAGE = 'https://assets.ccbp.in/frontend/react-js/lose-game-img.png'
 const WON_IMAGE = 'https://assets.ccbp.in/frontend/react-js/won-game-img.png'
 
-const WinOrLoseCard = props => {
-  const {isWon, onClickPlayAgain, score} = props
+const WinOrLoseCard = ({ isWon, onClickPlayAgain, score }) => {
   const imageUrl = isWon ? WON_IMAGE : LOSE_IMAGE
   const gameStatus = isWon ? 'You Won' : 'You Lose'
   const scoreLabel = isWon ? 'Best Score' : 'Score'
+
   return (
     <div className="win-or-lose-card">
       <div className="details-section">
@@ -23,9 +23,10 @@ const WinOrLoseCard = props => {
         </button>
       </div>
       <div className="image-section">
-        <img className="win-or-lose-image" src={imageUrl} alt="win or lose" />
+        <img className="win-or-lose-image" src={imageUrl} alt={gameStatus} />
       </div>
     </div>
   )
 }
+
 export default WinOrLoseCard
