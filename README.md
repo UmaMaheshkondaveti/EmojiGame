@@ -1,12 +1,26 @@
-# React + Vite
+# 🎮 Emoji Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive emoji memory game built using React! 🏆
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+- 🎭 Click on each emoji only once!
+- 🔄 Emojis shuffle after each click.
+- 🎉 Win by clicking all emojis without repeating.
+- ⚡ Keeps track of top score.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- CSS (or Tailwind if used)
+
+## 📂 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/UmaMaheshkondaveti/EmojiGame.git
+cd EmojiGame
+npm run dev
